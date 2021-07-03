@@ -1,0 +1,21 @@
+{
+	"default_domain": ".mywish.com",
+	"port": 3031,
+	"mongo": {
+			"username": "root",
+			"password": "QlycGmyPTl53Rjcu",
+			"hostname": "cluster0.wuyjx.mongodb.net",
+			"database": "wix"
+	},
+	"redis": {
+		"host": "redis-17551.c92.us-east-1-3.ec2.cloud.redislabs.com",
+		"port": 17551,
+		"password": "ZyvZ4MES1Jom4zKkaRc9R3Jx7gU1OfPf",
+		"prefix": "wix_local"
+	},
+	"secret": "1234qwer",
+	"api_base": "http://localhost:3031",
+	"cdn": "http://cdn.wish.com:3032",
+	"media_api": "https://fire-hub-keeper.herokuapp.com",
+	"media_cdn": "https://fh-cdn.chondesign.com"
+}

@@ -1,0 +1,12 @@
+{
+    "compilerOptions": {
+      "baseUrl": ".",
+      "paths": {
+        "@/models": ["./frontend/src/models"],
+        "@/components": ["./frontend/src/components"],
+        "@/utils": ["./frontend/src/utils"],
+        "@": ["./frontend/src"],
+      }
+    }
+  }
+  

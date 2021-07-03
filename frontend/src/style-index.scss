@@ -1,0 +1,174 @@
+$mainColor : #214cf3;
+@import '~antd/dist/antd.css';
+.welcome {
+  &__bg {
+    background-image: url(/static/welcome.svg);
+    background-size: cover;
+    background-position: center center;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0px;
+    right: 0px;
+    filter: blur(2px);
+    opacity: 0.3;
+    z-index: -1;
+  }
+}
+.login-wrap, .signup-wrap {
+  h2 {
+    margin-bottom: 20px;
+    font-size: 20px;
+    text-align: center;
+  }
+  width: 320px;
+  margin: 40px auto 0 auto;
+  padding: 20px 20px 0;
+  box-shadow: 2px 2px 12px #d5d5d5;
+  background-color: #fff;
+}
+#contentLayout {
+	min-height: 100vh;
+}
+
+.trigger-sidebar {
+  font-size: 18px;
+  line-height: 64px;
+  padding: 0 24px;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.trigger-sidebar:hover {
+  color: #1890ff;
+}
+
+.logo {
+	color: #fff;
+  line-height: 30px;
+  font-size: 30px;
+  padding: 10px 10px 10px 27px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.button-group .ant-btn {
+  margin-right: 8px;
+  margin-bottom: 12px;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.home-container {
+  width: 980px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.mt-10 {
+  margin-top: 10px;
+}
+.mt-20 {
+  margin-top: 20px;
+}
+
+.ml-10 {
+  margin-left: 10px;
+}
+.mr-10 {
+  margin-right: 10px;
+}
+
+.mb-10 {
+  margin-bottom: 10px;
+}
+.mb-20 {
+  margin-bottom: 20px;
+}
+.fll{float: left;}
+.flr{float: right;}
+.layout-flex {
+  display: flex;
+}
+.site-card {
+  flex: 0 0 30%;
+  height: 180px;
+  margin: 0 20px 20px 0;
+  box-shadow: 2px 3px 6px #0000003b;
+  border-radius: 10px;
+  padding: 26px;
+  font-size: 20px;
+  cursor: pointer;
+  &--loading {
+    
+  }
+  &:hover {
+    background: #f1f1f1;
+  }
+  &--add {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+}
+.error-message {
+  color: #f00;
+}
+
+.home-header {
+  background: $mainColor;
+  border-bottom: 1px solid #dedede;
+  box-shadow: 0 0 6px #ddd;
+}
+.sidebar-layout {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+.sidebar-avatar {
+  flex: 1;
+  align-items: flex-end;
+
+  > span {
+    padding: 10px 8px;
+    width: 100%;
+    display: flex;
+  }
+  &__text {
+    width: calc(100% - 30px);
+    padding-left: 5px;
+    color: #fff;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    margin: 0 0 0 0;
+    line-height: 17px;
+    font-size: 13px;
+  }
+}
+.btn-row {
+  margin-bottom: 10px;
+  &__right {
+    text-align: right;
+    .ant-btn {
+      margin-right: 0;
+      margin-left: 8px;
+    }
+  }
+  .ant-btn {
+    margin-right: 8px;
+  }
+}

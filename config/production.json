@@ -1,0 +1,14 @@
+{
+	"default_domain": ".myweb.chondesign.com",
+	"redis": {
+		"host": "redis-17551.c92.us-east-1-3.ec2.cloud.redislabs.com",
+		"port": 17551,
+		"password": "ZyvZ4MES1Jom4zKkaRc9R3Jx7gU1OfPf",
+		"prefix": "wix_prod"
+	},
+	"secret": "1234qwer",
+	"api_base": "https://web-api.chondesign.com",
+	"cdn": "https://web-cdn.chondesign.com",
+	"media_api": "https://fire-hub-keeper.herokuapp.com",
+	"media_cdn": "https://fh-cdn.chondesign.com"
+}
